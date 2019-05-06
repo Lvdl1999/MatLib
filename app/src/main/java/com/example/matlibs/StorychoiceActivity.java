@@ -32,7 +32,6 @@ public class StorychoiceActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String item = (String) storylist.getItemAtPosition(position);
 //                kijken welke titel is ingeklikt
-                //TODO eventueel met switchcase doen, switch (item)
 //                story meegeven aan intent
                 if (item.equals("simple story")){
                     Log.wtf("klik iets", "geklikt1");
@@ -50,10 +49,10 @@ public class StorychoiceActivity extends AppCompatActivity {
                     Log.wtf("klik iets", "geklikt5");
                 }
 
-//TODO                intent aanmaken
+//                intent aanmaken
                 Intent i = new Intent(StorychoiceActivity.this, Words_Activity.class);
 
-//TODO                 en item meegeven aan intent naar nieuwe activity (verhaaltje invullen met woorden)
+//              en item meegeven aan intent naar nieuwe activity (verhaaltje invullen met woorden)
 
                 i.putExtra("chosen_item", item);
                 startActivity(i);

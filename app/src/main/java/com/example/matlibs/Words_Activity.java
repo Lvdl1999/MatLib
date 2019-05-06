@@ -88,10 +88,10 @@ public class Words_Activity extends AppCompatActivity {
         if (story.isFilledIn()){
             String endstory = story.toString();
 
-            //TODO intent aanmaken
+            // intent aanmaken
             Intent i = new Intent(Words_Activity.this, FinalActivity.class);
 
-            //TODO en item meegeven aan intent naar nieuwe activity (verhaaltje invullen met woorden)
+            // en item meegeven aan intent naar nieuwe activity (verhaaltje invullen met woorden)
 
             i.putExtra("endstory", endstory);
             startActivity(i);
