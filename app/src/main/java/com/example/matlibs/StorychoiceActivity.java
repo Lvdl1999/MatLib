@@ -13,7 +13,7 @@ public class StorychoiceActivity extends AppCompatActivity {
 
     private ListView storylist;
     private ArrayAdapter arrayAdapter;
-    private String[] stories= {"test", "test2", "test3"};
+    private String[] stories= {"simple story", "tarzan story", "university story", "clothes story", "dance story"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,13 +34,29 @@ public class StorychoiceActivity extends AppCompatActivity {
 //                kijken welke titel is ingeklikt
                 //TODO eventueel met switchcase doen, switch (item)
 //                story meegeven aan intent
-                if (item.equals("test")){
-                    Log.wtf("lekker", "lekker geklikt pik");
+                if (item.equals("simple story")){
+                    Log.wtf("klik iets", "geklikt1");
+                }
+                else if (item.equals("tarzan story")){
+                    Log.wtf("klik iets", "geklikt2");
+                }
+                else if (item.equals("university story")){
+                    Log.wtf("klik iets", "geklikt3");
+                }
+                else if (item.equals("clothes story")){
+                    Log.wtf("klik iets", "geklikt4");
+                }
+                else if (item.equals("dance story")){
+                    Log.wtf("klik iets", "geklikt5");
                 }
 
-
 //TODO                intent aanmaken
+                Intent i = new Intent(StorychoiceActivity.this, Words_Activity.class);
+
 //TODO                 en item meegeven aan intent naar nieuwe activity (verhaaltje invullen met woorden)
+
+                i.putExtra("chosen_item", item);
+                startActivity(i);
 
             }
         });

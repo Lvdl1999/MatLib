@@ -19,13 +19,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         startbutton = findViewById(R.id.startbutton);
 
-//        om te beginnen laadt je hier altijd het simpele verhaal
-        InputStream is = getResources().openRawResource(R.raw.madlib0_simple);
-
-        //    Making an instance of the story class
-        Story story = new Story(is);
-
-
     }
 
     public void startGame(View view) {
