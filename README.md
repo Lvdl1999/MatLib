@@ -21,7 +21,8 @@ This way the app knows when the user is done and the story will be shown in the 
 The final screen will show the completed story containing all the words the user has given. 
 
 Every screen that has to transport information like a chosen story, or the given words was done by an intent fucntion. 
-This way the next screen has all the information it needs to adjust the UI.
+This way the next screen has all the information it needs to adjust the UI. 
+In case someone turns the phone to landscape, the app will reload and get all data from the bundle in case necessary. If for instance there were already words filled in, it means the placeholder will stay updated and shown on the reloaded version.
 
 So to show you how this app does work, here is an example with screenshots:
 
@@ -35,3 +36,7 @@ So to show you how this app does work, here is an example with screenshots:
 
 
 4. completed story
+
+
+5. Landscape variaton
+
