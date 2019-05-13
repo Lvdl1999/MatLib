@@ -51,7 +51,6 @@ public class Story implements Serializable {
     }
 
     /** replaces the next unfilled placeholder with the given word */
-//    placeholders zijn plekken waar je woorden gaat typen
     public void fillInPlaceholder(String word) {
         if (!isFilledIn()) {
             text = text.replace("<" + filledIn + ">", word);
@@ -61,10 +60,6 @@ public class Story implements Serializable {
 
     /** returns the next placeholder such as "adjective",
      *  or empty string if story is completely filled in already */
-//    deze methodes kan ik ergens dan aanroepen tijdens spel
-//    als eerste om spel te beginnen getplaceholder
-//    getplaceholder dan krijg je eerst bijv job en daarna volgende placeholder
-//    placeholder die hij returnt moet ik laten zien aan user via de textview
     public String getNextPlaceholder() {
         if (isFilledIn()) {
             return "";
@@ -73,7 +68,6 @@ public class Story implements Serializable {
         }
     }
 
-//    als placeholder count is 0, is het af
     /** returns total number of placeholders in the story */
     public int getPlaceholderCount() {
         return placeholders.size();
