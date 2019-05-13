@@ -30,11 +30,12 @@ So to show you how this app does work, here is an example with screenshots:
 <img width="277" alt="image" src="https://user-images.githubusercontent.com/47352487/57650377-f5408280-75ca-11e9-87c8-c5f0d820ed77.png">
 
 2. chose a story
-<img width="287" alt="image" src="https://user-images.githubusercontent.com/47352487/57650534-52d4cf00-75cb-11e9-91e4-4bc0d2ffe11d.png">
+![image](https://user-images.githubusercontent.com/47352487/57651172-e22eb200-75cc-11e9-9142-5a7d9eeee4cf.png)
 
 3. fill in the simple story
-![image](https://user-images.githubusercontent.com/47352487/57651063-a267ca80-75cc-11e9-86c8-22445d895b30.png)
-<img width="264" alt="image" src="https://user-images.githubusercontent.com/47352487/57651044-95e37200-75cc-11e9-97dc-e234b5459451.png">
+![image](https://user-images.githubusercontent.com/47352487/57651193-f2469180-75cc-11e9-8709-ee3d9013547d.png)
+
+<img width="273" alt="Schermafbeelding 2019-05-13 om 22 11 16" src="https://user-images.githubusercontent.com/47352487/57651208-f8d50900-75cc-11e9-83f6-eeb4c137791f.png">
 
 4. completed story
 <img width="284" alt="image" src="https://user-images.githubusercontent.com/47352487/57650805-ec9c7c00-75cb-11e9-844e-c9bad1b07736.png">
