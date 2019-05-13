@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         startbutton = findViewById(R.id.startbutton);
-
     }
 
     public void startGame(View view) {
@@ -26,12 +25,4 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, StorychoiceActivity.class);
         startActivity(intent);
     }
-
-
-//    beginpagina welkom en start spel
-//    keuze uit 5 verhaaltjes
-//    kijken op welk verhaal is geklikt en dat bijhouden met Clicklistener
-//    adhv verhaal wat iemand kiest moet dat op achtergrond worden geladen
-
-
 }

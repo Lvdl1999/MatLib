@@ -8,9 +8,14 @@
 
     <TextView
         android:id="@+id/finalstory"
-        android:layout_width="236dp"
-        android:layout_height="273dp"
+        android:layout_width="339dp"
+        android:layout_height="576dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="serif"
         android:text="TextView"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="173dp" />
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

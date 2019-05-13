@@ -26,21 +26,17 @@ public class Words_Activity extends AppCompatActivity {
         words = findViewById(R.id.putwords);
         counter = findViewById(R.id.counter);
 
-//        story terughalen uit saved instance state als we restoren(draaien)
+        // If the app (for instance) is rotated get story from saved instance state as we restore
         if (bundle != null) {
             story = (Story) bundle.getSerializable("story");
         }
-//       anders uit vorige activity inladen en stream enalles bouwen (nieuwe bouwen)
+
+        // Else reload from previous activity and build the words activity
         else {
                 Intent i = getIntent();
                 String item = (String) i.getStringExtra("chosen_item");
 
-                //        findview by id voor textvakje en dan get text
-                //        text moet placeholder worden
-
-                // check om bij gekozen item het bijbehorende verhaal openen
-
-
+                // Checking which story the user has chosen
                 InputStream stream;
 
                 if (item.equals("simple story")) {
@@ -57,10 +53,11 @@ public class Words_Activity extends AppCompatActivity {
                     stream = getResources().openRawResource(R.raw.madlib0_simple);
                 }
 
-                //    Making an instance of the story class
+                // Making an instance of the story class
                 story = new Story(stream);
             }
 
+        // Making sure that the placeholder(count) is updated when starting the activity
         String placeholder = story.getNextPlaceholder();
         words.setHint(placeholder);
         Integer firstcount = story.getPlaceholderRemainingCount();
@@ -77,6 +74,7 @@ public class Words_Activity extends AppCompatActivity {
     }
 
     public void Fillinword(View view) {
+        // Making sure that the placeholder(count) is updated during the game
         String input = words.getText().toString();
         story.fillInPlaceholder(input);
         Integer remainingcount = story.getPlaceholderRemainingCount();
@@ -88,16 +86,10 @@ public class Words_Activity extends AppCompatActivity {
         if (story.isFilledIn()){
             String endstory = story.toString();
 
-            // intent aanmaken
+            // Creating a new intent and returning the completed story through new activity
             Intent i = new Intent(Words_Activity.this, FinalActivity.class);
-
-            // en item meegeven aan intent naar nieuwe activity (verhaaltje invullen met woorden)
-
             i.putExtra("endstory", endstory);
             startActivity(i);
         }
-
-
-
     }
 }

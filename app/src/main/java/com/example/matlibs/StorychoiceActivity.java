@@ -22,43 +22,23 @@ public class StorychoiceActivity extends AppCompatActivity {
 
         storylist = findViewById(R.id.storylist);
 
-//        Geeft een standaard layout aan elke view in listview
+        // Gives a standard layout to the listview
         arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, stories);
-//        set adapter zet alle titels op hun plek in listview
+
+        // Set Adapter puts all titles of the stories at their position in the listview
         storylist.setAdapter(arrayAdapter);
 
+        // Checking which item was clicked and return this story through intent
         storylist.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String item = (String) storylist.getItemAtPosition(position);
-//                kijken welke titel is ingeklikt
-//                story meegeven aan intent
-                if (item.equals("simple story")){
-                    Log.wtf("klik iets", "geklikt1");
-                }
-                else if (item.equals("tarzan story")){
-                    Log.wtf("klik iets", "geklikt2");
-                }
-                else if (item.equals("university story")){
-                    Log.wtf("klik iets", "geklikt3");
-                }
-                else if (item.equals("clothes story")){
-                    Log.wtf("klik iets", "geklikt4");
-                }
-                else if (item.equals("dance story")){
-                    Log.wtf("klik iets", "geklikt5");
-                }
 
-//                intent aanmaken
+                // Creating a new intent and returning chosen item through new activity
                 Intent i = new Intent(StorychoiceActivity.this, Words_Activity.class);
-
-//              en item meegeven aan intent naar nieuwe activity (verhaaltje invullen met woorden)
-
                 i.putExtra("chosen_item", item);
                 startActivity(i);
-
             }
         });
-
     }
 }
