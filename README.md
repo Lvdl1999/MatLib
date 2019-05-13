@@ -30,10 +30,10 @@ So to show you how this app does work, here is an example with screenshots:
 <img width="150" alt="image" src="https://user-images.githubusercontent.com/47352487/57650377-f5408280-75ca-11e9-87c8-c5f0d820ed77.png">
 
 2. chose a story
-![image](https://user-images.githubusercontent.com/47352487/57651172-e22eb200-75cc-11e9-9142-5a7d9eeee4cf.png)
+<img width="150" alt="image" src="https://user-images.githubusercontent.com/47352487/57651368-549f9200-75cd-11e9-9689-0ec4546e990b.png">
 
 3. fill in the simple story
-![image](https://user-images.githubusercontent.com/47352487/57651193-f2469180-75cc-11e9-8709-ee3d9013547d.png)
+<img width="150" alt="image" src="https://user-images.githubusercontent.com/47352487/57651412-6c771600-75cd-11e9-944f-4e9cd2482cf9.png">
 
 <img width="150" alt="Schermafbeelding 2019-05-13 om 22 11 16" src="https://user-images.githubusercontent.com/47352487/57651208-f8d50900-75cc-11e9-83f6-eeb4c137791f.png">
 
@@ -42,4 +42,10 @@ So to show you how this app does work, here is an example with screenshots:
 
 5. Landscape variaton
 <img width="370" alt="image" src="https://user-images.githubusercontent.com/47352487/57650428-12755100-75cb-11e9-8b31-39063b2b06ab.png">
+
+<img width="544" alt="image" src="https://user-images.githubusercontent.com/47352487/57651466-89abe480-75cd-11e9-8d43-fa4887d0a4e7.png">
+
+<img width="524" alt="image" src="https://user-images.githubusercontent.com/47352487/57651525-b2cc7500-75cd-11e9-8b6a-6acbec7c8ad2.png">
+
+<img width="471" alt="image" src="https://user-images.githubusercontent.com/47352487/57651545-c11a9100-75cd-11e9-9b6e-c0b9a71cc6d6.png">
 
