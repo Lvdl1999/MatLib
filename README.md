@@ -27,20 +27,25 @@ In case someone turns the phone to landscape, the app will reload and get all da
 So to show you how this app does work, here is an example with screenshots:
 
 **1. open the app "Mad Libs"**
+
 <img width="150" alt="image" src="https://user-images.githubusercontent.com/47352487/57650377-f5408280-75ca-11e9-87c8-c5f0d820ed77.png">
 
 **2. chose a story**
+
 <img width="150" alt="image" src="https://user-images.githubusercontent.com/47352487/57651368-549f9200-75cd-11e9-9689-0ec4546e990b.png">
 
 **3. fill in the simple story**
+
 <img width="150" alt="image" src="https://user-images.githubusercontent.com/47352487/57651412-6c771600-75cd-11e9-944f-4e9cd2482cf9.png">
 
 <img width="150" alt="Schermafbeelding 2019-05-13 om 22 11 16" src="https://user-images.githubusercontent.com/47352487/57651208-f8d50900-75cc-11e9-83f6-eeb4c137791f.png">
 
 **4. completed story**
+
 <img width="150" alt="image" src="https://user-images.githubusercontent.com/47352487/57650805-ec9c7c00-75cb-11e9-844e-c9bad1b07736.png">
 
 **5. Landscape variaton**
+
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/47352487/57650428-12755100-75cb-11e9-8b31-39063b2b06ab.png">
 
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/47352487/57651466-89abe480-75cd-11e9-8d43-fa4887d0a4e7.png">
