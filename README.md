@@ -33,9 +33,8 @@ So to show you how this app does work, here is an example with screenshots:
 <img width="287" alt="image" src="https://user-images.githubusercontent.com/47352487/57650534-52d4cf00-75cb-11e9-91e4-4bc0d2ffe11d.png">
 
 3. fill in the simple story
-<img width="285" alt="Schermafbeelding 2019-05-13 om 22 06 42" src="https://user-images.githubusercontent.com/47352487/57650719-b6f79300-75cb-11e9-8d1a-70ddb4b742f0.png">
-<img width="277" alt="image" src="https://user-images.githubusercontent.com/47352487/57650750-cb3b9000-75cb-11e9-8937-e13cd1683204.png">
-<img width="284" alt="image" src="https://user-images.githubusercontent.com/47352487/57650805-ec9c7c00-75cb-11e9-844e-c9bad1b07736.png">
+![image](https://user-images.githubusercontent.com/47352487/57651063-a267ca80-75cc-11e9-86c8-22445d895b30.png)
+<img width="264" alt="image" src="https://user-images.githubusercontent.com/47352487/57651044-95e37200-75cc-11e9-97dc-e234b5459451.png">
 
 4. completed story
 <img width="284" alt="image" src="https://user-images.githubusercontent.com/47352487/57650805-ec9c7c00-75cb-11e9-844e-c9bad1b07736.png">
